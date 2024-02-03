@@ -1,0 +1,83 @@
+/* @media screen and (min-width: 1025px) and (max-width:1366px){ */
+    .nav-item:hover::after{
+        width: 0%;
+        }
+        @media screen and (max-width: 1024px) {    
+            .col-md-6{
+            /* width: 52%; */
+            /* } */
+        }
+.content span{
+font-size: 40px;
+}
+      /*THis is for tablets*/
+   
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav-item:hover::after{
+        width: 0%;
+        }
+        .col-md-6{
+        width: 51%;   
+        }
+        .button1{
+            display: none;
+            }
+    .container2{
+     height: 31vh;
+    /* background-color: aqua; */
+    }
+    .card img{
+        height: 30vh;
+        }
+    }
+   .container2{
+
+margin-top: -12%;
+}
+.card{
+width: 100%;
+}
+.cardscontainer{
+display: block;
+}
+.card:hover{
+    transform: none;
+    }
+
+    /* for mobile phones*/
+    @media screen and (max-width: 767px){
+        
+        .nav-item:hover::after{
+            width: 0%;
+            }
+     .button1{
+    display: none;
+    }
+    .content{
+    height: 38vh;
+}
+.lists{
+font-size: 1.2rem;
+}
+.card img{
+height: 30vh;
+}
+.card:hover{
+transform: none;
+}
+.cardscontainer{
+margin-top: 10px;
+}
+}
+.card{
+margin-bottom: 1.5rem;
+}
+/*for very small*/
+@media screen and (max-width: 320px){
+    .nav-item:hover::after{
+        width: 0%;
+        }
+    }
+    .content{
+        height: 42vh;
+    }}
